@@ -1,5 +1,11 @@
+import TopHead from '../components/TopHead'
 const Page = () => {
-    return <div>hello</div>
+
+    return (
+        <TopHead>
+            <div>Hello</div>
+        </TopHead>
+    )
 }
 
 export default Page
