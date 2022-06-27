@@ -1,0 +1,12 @@
+{
+  "name": "finduranimal",
+  "version": "1.0.0",
+  "description": "website that create a qr-code with your pet info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jhonnatan Mendez",
+  "license": "MIT"
+}
