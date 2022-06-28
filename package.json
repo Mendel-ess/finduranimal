@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "website that create a qr-code with your pet info",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build"
   },
   "keywords": [],
   "author": "Jhonnatan Mendez",
