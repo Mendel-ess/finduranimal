@@ -1,10 +1,13 @@
 import TopHead from '../components/TopHead'
+import TopBar from '../components/TopBar'
 const Page = () => {
 
     return (
-        <TopHead>
-            <div>Hello</div>
-        </TopHead>
+        <TopBar>
+            <TopHead>
+                
+            </TopHead>
+        </TopBar>
     )
 }
 
