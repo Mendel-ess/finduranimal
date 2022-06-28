@@ -1,9 +1,25 @@
+import Link from 'next/link'
+
 const TopBar = () => {
     return (
         <div>
-            <h1>Home</h1>
-            <h2>About</h2>
-            <h2>Search your animal</h2>
+            <ul>
+                <li>
+                    <Link href="../pages/index.js">
+                        <a>Home</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="../pages/about.js">
+                        <a>About</a>
+                    </Link>
+                </li>
+                <li>
+                    <Link href="../pages/searchpets.js">
+                        <a>Search your pet</a>
+                    </Link>
+                </li>
+            </ul>
         </div>
     )
 
